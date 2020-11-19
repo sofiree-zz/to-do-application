@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(255, 255, 255);
+    padding:308px 0 0 0px ;
+}
+
+body, header, input{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nofill{
+    fill: none;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 83px;
+    left: 0px;
+    top: 0px; 
+    z-index: 5;
+    background: #9B51E0;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 10px 10px; 
+}
+
+
+h1{
+    position: absolute;
+    width: 364px;
+    height: 42px;
+    left: 538px;
+    top: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    }
+/* 
+.container{
+    width: 883px;
+    height: 63px;
+    left: 278px;
+    top: 219px;
+    text-align: center;
+} */
+.header input{
+    position: absolute;
+    width: 883px;
+    height: 63px;
+    left: 278px;
+    top: 219px;
+    font: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-indent: 18px;
+
+
+    border-radius: 10px;   
+    background: #333333;
+    z-index: 1;
+    padding: 0 71px 0 0;
+    }
+ 
+
+.header button{
+    position: absolute;
+    width: 71px;
+    height: 62px;
+    left: 1090px;
+    top: 219px;
+    background: #c4c4c4;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.header button svg{
+    position: none;
+    width: 47px;
+    height: 52px;
+    left: 1102px;
+    top: 229px;
+}
+
+
+
+ul.todolist{
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+ul.todolist .text-line{
+    position: absolute;
+    width: 828px;
+    height: 40px;
+    left: 306px;
+    top: 305px;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(113, 25, 228, 0.933);
+    z-index: 2;
+    border: 2px solid #9B51E0;
+    /* padding: 0px 110px 0px 0px; */
+    cursor: pointer;
+
+
+}
+
+ul.todolist .buttons{
+    position: relative;
+    width: 200px;
+    height: 36px;
+    left: 1025px;
+    top: 3px;
+    z-index: 3;
+    padding: 0px 90px 0px 0px;
+}
+
+ul.todolist .buttons button{
+    position: relative;
+    z-index: 2;
+    appearance: none;
+    background: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
+    transition: 0.2s;
+}
+
+ul.todolist .buttons button svg{
+    width: 20px;
+    height: 32px;
+}
+
+
+ul.todolist .buttons button svg .fill{
+    fill: #8a2be2;
+}
+
+ul.todolist .buttons button:hover svg .fill{
+    fill: #000000;
+}
+
